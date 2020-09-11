@@ -12,7 +12,8 @@ My solutions to the puzzles implemented in Dart.
 - [x] [Horse-racing Duals][horse-racing-duals]
 - [x] [Temperatures][temperatures]
 - [x] [ASCII Art][ascii-art]
-- [ ] [Defibrillators][defibrillators]
+- [x] [Defibrillators][defibrillators]
+- [ ] [1D Spreadsheet][1d-spreadsheet]
 
 </details>
 
@@ -40,3 +41,4 @@ Created from templates made available by Stagehand under a BSD-style
 [temperatures]: https://www.codingame.com/training/easy/temperatures
 [ascii-art]: https://www.codingame.com/training/easy/ascii-art
 [defibrillators]: https://www.codingame.com/training/easy/defibrillators
+[1d-spreadsheet]: https://www.codingame.com/training/easy/1d-spreadsheet
