@@ -13,7 +13,8 @@ My solutions to the puzzles implemented in Dart.
 - [x] [Temperatures][temperatures]
 - [x] [ASCII Art][ascii-art]
 - [x] [Defibrillators][defibrillators]
-- [ ] [1D Spreadsheet][1d-spreadsheet]
+- [x] [1D Spreadsheet][1d-spreadsheet]
+- [ ] [Rock Paper Scissors Lizard Spock][rock-paper-scissors-lizard-spock]
 
 </details>
 
@@ -32,6 +33,7 @@ My solutions to the puzzles implemented in Dart.
 Created from templates made available by Stagehand under a BSD-style
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
 
+<!-- Classic Puzzle - Easy -->
 [onboarding]: https://www.codingame.com/training/easy/onboarding
 [the-descent]: https://www.codingame.com/training/easy/the-descent
 [power-of-thor-episode-1]: https://www.codingame.com/training/easy/power-of-thor-episode-1
@@ -42,3 +44,4 @@ Created from templates made available by Stagehand under a BSD-style
 [ascii-art]: https://www.codingame.com/training/easy/ascii-art
 [defibrillators]: https://www.codingame.com/training/easy/defibrillators
 [1d-spreadsheet]: https://www.codingame.com/training/easy/1d-spreadsheet
+[rock-paper-scissors-lizard-spock]: https://www.codingame.com/training/easy/rock-paper-scissors-lizard-spock

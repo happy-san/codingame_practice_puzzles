@@ -2,10 +2,10 @@ import 'dart:io';
 import 'dart:math';
 
 class Location {
-  double longitude;
   double latitude;
+  double longitude;
 
-  Location(this.longitude, this.latitude);
+  Location(this.latitude, this.longitude);
 
   /// Returns distance between location [a] and [b] applying Equirectangular approximation.
   static double distanceBetween(Location a, Location b) {
@@ -21,8 +21,8 @@ class Location {
 String closestDefibrillator(Location userLocation, List defibrillatorList) {
   var defibLocations = List.generate(defibrillatorList.length, (i) {
     return Location(
-        double.parse(defibrillatorList[i][4].replaceFirst(',', '.')),
-        double.parse(defibrillatorList[i][5].replaceFirst(',', '.')));
+        double.parse(defibrillatorList[i][5].replaceFirst(',', '.')),
+        double.parse(defibrillatorList[i][4].replaceFirst(',', '.')));
   });
 
   var minIndex = 0, minDistance = 20036.0; // 20036.0 is the maximum distance
@@ -41,8 +41,8 @@ String closestDefibrillator(Location userLocation, List defibrillatorList) {
 void main() {
   var longitude = stdin.readLineSync();
   var latitude = stdin.readLineSync();
-  var userLocation = Location(double.parse(longitude.replaceFirst(',', '.')),
-      double.parse(latitude.replaceFirst(',', '.')));
+  var userLocation = Location(double.parse(latitude.replaceFirst(',', '.')),
+      double.parse(longitude.replaceFirst(',', '.')));
 
   var defibrillatorCount = int.parse(stdin.readLineSync());
 
