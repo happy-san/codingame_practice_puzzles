@@ -1,5 +1,5 @@
 # Codingame Practice Puzzles
-My solutions to the puzzles implemented in Dart.
+Solutions to the puzzles implemented in Dart.
 
 <details>
 <summary>Classic Puzzle - Easy</summary>
@@ -14,7 +14,8 @@ My solutions to the puzzles implemented in Dart.
 - [x] [ASCII Art][ascii-art]
 - [x] [Defibrillators][defibrillators]
 - [x] [1D Spreadsheet][1d-spreadsheet]
-- [ ] [Rock Paper Scissors Lizard Spock][rock-paper-scissors-lizard-spock]
+- [x] [Rock Paper Scissors Lizard Spock][rock-paper-scissors-lizard-spock]
+- [ ] [Ghost Legs][ghost-legs]
 
 </details>
 
@@ -45,3 +46,4 @@ Created from templates made available by Stagehand under a BSD-style
 [defibrillators]: https://www.codingame.com/training/easy/defibrillators
 [1d-spreadsheet]: https://www.codingame.com/training/easy/1d-spreadsheet
 [rock-paper-scissors-lizard-spock]: https://www.codingame.com/training/easy/rock-paper-scissors-lizard-spock
+[ghost-legs]: https://www.codingame.com/training/easy/ghost-legs
