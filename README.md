@@ -15,7 +15,8 @@ Solutions to the puzzles implemented in Dart.
 - [x] [Defibrillators][defibrillators]
 - [x] [1D Spreadsheet][1d-spreadsheet]
 - [x] [Rock Paper Scissors Lizard Spock][rock-paper-scissors-lizard-spock]
-- [ ] [Ghost Legs][ghost-legs]
+- [x] [Ghost Legs][ghost-legs]
+- [ ] [Rectangle Partition][rectangle-partition]
 
 </details>
 
@@ -47,3 +48,4 @@ Created from templates made available by Stagehand under a BSD-style
 [1d-spreadsheet]: https://www.codingame.com/training/easy/1d-spreadsheet
 [rock-paper-scissors-lizard-spock]: https://www.codingame.com/training/easy/rock-paper-scissors-lizard-spock
 [ghost-legs]: https://www.codingame.com/training/easy/ghost-legs
+[rectangle-partition]: https://www.codingame.com/training/easy/rectangle-partition
