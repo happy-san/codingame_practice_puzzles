@@ -16,7 +16,8 @@ Solutions to the puzzles implemented in Dart.
 - [x] [1D Spreadsheet][1d-spreadsheet]
 - [x] [Rock Paper Scissors Lizard Spock][rock-paper-scissors-lizard-spock]
 - [x] [Ghost Legs][ghost-legs]
-- [ ] [Rectangle Partition][rectangle-partition]
+- [x] [Rectangle Partition][rectangle-partition]
+- [ ] [Mars Lander - Episode 1][mars-lander-episode-1]
 
 </details>
 
@@ -49,3 +50,4 @@ Created from templates made available by Stagehand under a BSD-style
 [rock-paper-scissors-lizard-spock]: https://www.codingame.com/training/easy/rock-paper-scissors-lizard-spock
 [ghost-legs]: https://www.codingame.com/training/easy/ghost-legs
 [rectangle-partition]: https://www.codingame.com/training/easy/rectangle-partition
+[mars-lander-episode-1]: https://www.codingame.com/training/easy/mars-lander-episode-1

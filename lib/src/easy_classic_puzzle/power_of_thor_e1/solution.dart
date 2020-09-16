@@ -13,6 +13,7 @@ void main() {
 
   // game loop
   while (true) {
+    // ignore: unused_local_variable
     var remainingTurns = int.parse(stdin
         .readLineSync()); // The remaining amount of turns Thor can move. Do not remove this line.
     var output = '';

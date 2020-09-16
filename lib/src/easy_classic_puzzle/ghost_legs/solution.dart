@@ -41,7 +41,7 @@ void main() {
   var height = int.parse(input[1]);
 
   var ghostLegDiagram = List<String>(height);
-  for (int i = 0; i < height; i++) {
+  for (var i = 0; i < height; i++) {
     ghostLegDiagram[i] = stdin.readLineSync();
   }
   var top = ghostLegDiagram.first;
