@@ -4,21 +4,22 @@ Solutions to the puzzles implemented in Dart.
 <details>
 <summary>Classic Puzzle - Easy</summary>
 
-- [x] [Onboarding][onboarding]
-- [x] [The Descent][the-descent]
-- [x] [Power of Thor - Episode 1][power-of-thor-episode-1]
-- [x] [Chuck Norris][chuck-norris]
-- [x] [MIME Type][mime-type]
-- [x] [Horse-racing Duals][horse-racing-duals]
-- [x] [Temperatures][temperatures]
-- [x] [ASCII Art][ascii-art]
-- [x] [Defibrillators][defibrillators]
-- [x] [1D Spreadsheet][1d-spreadsheet]
-- [x] [Rock Paper Scissors Lizard Spock][rock-paper-scissors-lizard-spock]
-- [x] [Ghost Legs][ghost-legs]
-- [x] [Rectangle Partition][rectangle-partition]
-- [ ] [Mars Lander - Episode 1][mars-lander-episode-1]
-
+| Puzzle | Solution|
+|---|---|
+|[Onboarding][onboarding]| [link](/lib/src/easy_classic_puzzle/onboarding)|
+|[The Descent][the-descent]| [link](/lib/src/easy_classic_puzzle/the_descent)|
+|[Power of Thor - Episode 1][power-of-thor-episode-1]| [link](/lib/src/easy_classic_puzzle/power_of_thor_e1)|
+|[Chuck Norris][chuck-norris]| [link](/lib/src/easy_classic_puzzle/chuck_norris)|
+|[MIME Type][mime-type]| [link](/lib/src/easy_classic_puzzle/mime_type)|
+|[Horse-racing Duals][horse-racing-duals]| [link](/lib/src/easy_classic_puzzle/horse_racing_duals)|
+|[Temperatures][temperatures]| [link](/lib/src/easy_classic_puzzle/temperatures)|
+|[ASCII Art][ascii-art]| [link](/lib/src/easy_classic_puzzle/ascii_art)|
+|[Defibrillators][defibrillators]| [link](/lib/src/easy_classic_puzzle/defibrillators)|
+|[1D Spreadsheet][1d-spreadsheet]| [link](/lib/src/easy_classic_puzzle/1d_spreadsheet)|
+|[Rock Paper Scissors Lizard Spock][rock-paper-scissors-lizard-spock]| [link](/lib/src/easy_classic_puzzle/rock_paper_scissors_lizard_spock)|
+|[Ghost Legs][ghost-legs]| [link](/lib/src/easy_classic_puzzle/ghost_legs)|
+|[Rectangle Partition][rectangle-partition]| [link](/lib/src/easy_classic_puzzle/rectangle_partition)|
+|[Mars Lander - Episode 1][mars-lander-episode-1]| |
 </details>
 
 <details>
