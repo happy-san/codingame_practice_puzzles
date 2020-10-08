@@ -151,17 +151,11 @@ void addNewEntry(index, operation, arg1, arg2) {
   }
 }
 
-num add(num a, num b) {
-  return a + b;
-}
+num add(num a, num b) => a + b;
 
-num sub(num a, num b) {
-  return a - b;
-}
+num sub(num a, num b) => a - b;
 
-num mult(num a, num b) {
-  return a * b;
-}
+num mult(num a, num b) => a * b;
 
 void main() {
   var N = int.parse(stdin.readLineSync());

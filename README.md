@@ -19,7 +19,8 @@ Solutions to the puzzles implemented in Dart.
 |[Rock Paper Scissors Lizard Spock][rock-paper-scissors-lizard-spock]| [link](/lib/src/easy_classic_puzzle/rock_paper_scissors_lizard_spock)|
 |[Ghost Legs][ghost-legs]| [link](/lib/src/easy_classic_puzzle/ghost_legs)|
 |[Rectangle Partition][rectangle-partition]| [link](/lib/src/easy_classic_puzzle/rectangle_partition)|
-|[Mars Lander - Episode 1][mars-lander-episode-1]| |
+|[Mars Lander - Episode 1][mars-lander-episode-1]| TODO: Learn about controller theory.|
+|[Prefix code][prefix-code]| |
 </details>
 
 <details>
@@ -52,3 +53,4 @@ Created from templates made available by Stagehand under a BSD-style
 [ghost-legs]: https://www.codingame.com/training/easy/ghost-legs
 [rectangle-partition]: https://www.codingame.com/training/easy/rectangle-partition
 [mars-lander-episode-1]: https://www.codingame.com/training/easy/mars-lander-episode-1
+[prefix-code]: https://www.codingame.com/training/easy/prefix-code
