@@ -20,7 +20,9 @@ Solutions to the puzzles implemented in Dart.
 |[Ghost Legs][ghost-legs]| [link](/lib/easy/ghost_legs)|
 |[Rectangle Partition][rectangle-partition]| [link](/lib/easy/rectangle_partition)|
 |[Mars Lander - Episode 1][mars-lander-episode-1]| TODO: Learn about controller theory.|
-|[Prefix code][prefix-code]| |
+|[Prefix code][prefix-code]| [link](/lib/easy/prefix_code)|
+|[Equivalent Resistance, Circuit Building][equivalent-resistance-circuit-building]| |
+
 </details>
 
 <details>
@@ -54,3 +56,4 @@ Created from templates made available by Stagehand under a BSD-style
 [rectangle-partition]: https://www.codingame.com/training/easy/rectangle-partition
 [mars-lander-episode-1]: https://www.codingame.com/training/easy/mars-lander-episode-1
 [prefix-code]: https://www.codingame.com/training/easy/prefix-code
+[equivalent-resistance-circuit-building]: https://www.codingame.com/training/easy/equivalent-resistance-circuit-building
