@@ -195,7 +195,7 @@ class RedBlackTree<T extends Comparable> {
   ///            / \          / \
   ///           ⬤               ⬤
   /// Left subtree of C becomes right subtree of N.
-  _rotateLeft(RedBlackNode node) {
+  void _rotateLeft(RedBlackNode node) {
     var child = node.right;
     var parent = _parent(node);
 
@@ -228,7 +228,7 @@ class RedBlackTree<T extends Comparable> {
   ///         / \                / \
   ///            ⬤             ⬤
   /// Right subtree of C becomes left subtree of N.
-  _rotateRight(RedBlackNode node) {
+  void _rotateRight(RedBlackNode node) {
     var child = node.left;
     var parent = _parent(node);
 
