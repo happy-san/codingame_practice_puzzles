@@ -52,7 +52,7 @@ void main(List<String> args) {
     }
     output.last = '${output.last},';
 
-// Create new test.
+// Create a new test.
     file.write('''
   test('$testName', () async {
 ''');
@@ -83,7 +83,7 @@ void main(List<String> args) {
 
 // Check output.
     file.write('''
-    var lineStream =
+    final lineStream =
         process.stdout.transform(Utf8Decoder()).transform(LineSplitter());
 
     expect(
@@ -96,7 +96,7 @@ void main(List<String> args) {
 
 // Print errors, if any.
     file.write('''
-    var err = process.stderr.transform(Utf8Decoder()).transform(LineSplitter());
+    final err = process.stderr.transform(Utf8Decoder()).transform(LineSplitter());
     await for (var e in err) {
       print(e);
     }
