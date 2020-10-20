@@ -16,4 +16,4 @@ doc/api/
 .vscode/launch.json
 
 # Tests
-test/
+test/easy/
