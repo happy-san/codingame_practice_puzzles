@@ -21,7 +21,9 @@ Solutions to the puzzles implemented in Dart.
 |[Rectangle Partition][rectangle-partition]| [link](/lib/easy/rectangle_partition)|
 |[Mars Lander - Episode 1][mars-lander-episode-1]| TODO: Learn about controller theory.|
 |[Prefix code][prefix-code]| [link](/lib/easy/prefix_code)|
-|[Equivalent Resistance, Circuit Building][equivalent-resistance-circuit-building]| |
+|[Equivalent Resistance, Circuit Building][equivalent-resistance-circuit-building]| [link](/lib/easy/equivalent_resistance_circuit_building)|
+|[Encryption/Decryption of Enigma Machine][encryptiondecryption-of-enigma-machine]| |
+
 
 </details>
 
@@ -57,3 +59,4 @@ Created from templates made available by Stagehand under a BSD-style
 [mars-lander-episode-1]: https://www.codingame.com/training/easy/mars-lander-episode-1
 [prefix-code]: https://www.codingame.com/training/easy/prefix-code
 [equivalent-resistance-circuit-building]: https://www.codingame.com/training/easy/equivalent-resistance-circuit-building
+[encryptiondecryption-of-enigma-machine]: https://www.codingame.com/training/easy/encryptiondecryption-of-enigma-machine
