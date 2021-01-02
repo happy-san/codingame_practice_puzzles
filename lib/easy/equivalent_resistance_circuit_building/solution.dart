@@ -14,7 +14,8 @@ String parse(String circuit, Map<String, int> map) {
     }
 
     // Resistor name encountered.
-    else if (list[i].codeUnitAt(0) >= 65 && list[i].codeUnitAt(0) <= 90) {
+    else if (list[i].contains(RegExp(r'[a-zA-Z]'))) {
+      print('pass: $i');
       continue;
     }
 

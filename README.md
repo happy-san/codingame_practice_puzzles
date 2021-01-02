@@ -22,7 +22,8 @@ Solutions to the puzzles implemented in Dart.
 |[Mars Lander - Episode 1][mars-lander-episode-1]| TODO: Learn about controller theory.|
 |[Prefix code][prefix-code]| [link](/lib/easy/prefix_code)|
 |[Equivalent Resistance, Circuit Building][equivalent-resistance-circuit-building]| [link](/lib/easy/equivalent_resistance_circuit_building)|
-|[Encryption/Decryption of Enigma Machine][encryptiondecryption-of-enigma-machine]| |
+|[Encryption/Decryption of Enigma Machine][encryptiondecryption-of-enigma-machine]| [link](/lib/easy/encryptiondecryption_of_enigma_machine)|
+|[https://www.codingame.com/training/easy/next-growing-number][next-growing-number]| |
 
 
 </details>
@@ -60,3 +61,4 @@ Created from templates made available by Stagehand under a BSD-style
 [prefix-code]: https://www.codingame.com/training/easy/prefix-code
 [equivalent-resistance-circuit-building]: https://www.codingame.com/training/easy/equivalent-resistance-circuit-building
 [encryptiondecryption-of-enigma-machine]: https://www.codingame.com/training/easy/encryptiondecryption-of-enigma-machine
+[next-growing-number]: https://www.codingame.com/training/easy/next-growing-number
