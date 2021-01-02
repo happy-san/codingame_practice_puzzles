@@ -23,7 +23,7 @@ Solutions to the puzzles implemented in Dart.
 |[Prefix code][prefix-code]| [link](/lib/easy/prefix_code)|
 |[Equivalent Resistance, Circuit Building][equivalent-resistance-circuit-building]| [link](/lib/easy/equivalent_resistance_circuit_building)|
 |[Encryption/Decryption of Enigma Machine][encryptiondecryption-of-enigma-machine]| [link](/lib/easy/encryptiondecryption_of_enigma_machine)|
-|[https://www.codingame.com/training/easy/next-growing-number][next-growing-number]| |
+|[Next growing number][next-growing-number]| |
 
 
 </details>
