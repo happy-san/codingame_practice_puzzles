@@ -1,6 +1,18 @@
 # Codingame Practice Puzzles
 Solutions to the puzzles implemented in Dart.
 
+## Motive
+My main motive to create this repository is to showcase my command on the Dart language.
+
+While this was not my initial motive, the limitations(lack of auto-complete due to latency, etc) that I felt in the online IDE of CodinGame lead me to create [`test generator`](/test/test_generator.dart) which I use to generate the boilerplate-code of each puzzle which in turn enables me to code locally. If you're a fellow gamer give it a try.
+
+## Plagiarism
+Since I am implementing solutions to the puzzles which are associated with experience points/levels in the CodinGame ecosystem and especially since CodinGame doesn't allow the user to even view other solutions before they've themselves first implemented a passing solution, I feel obliged to clarify, and even remind my fellow gamer, that this repository is not meant to be used to promote plagiarism.
+
+<hr/>
+
+## Links
+
 <details>
 <summary>Classic Puzzle - Easy</summary>
 
