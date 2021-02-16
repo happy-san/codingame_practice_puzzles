@@ -1,4 +1,7 @@
 # Codingame Practice Puzzles
+
+[![Build Status](https://travis-ci.com/happy-san/codingame_practice_puzzles.svg?branch=trunk)](https://travis-ci.com/happy-san/codingame_practice_puzzles)
+
 Solutions to the puzzles implemented in Dart.
 
 ## Motive
