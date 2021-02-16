@@ -4,7 +4,7 @@ void main(List<String> args) {
   var filename = 'test.dart';
   var file = File(filename).openWrite();
 
-  stdout.write('Enter dart-file to be tested: ');
+  stdout.write('Enter the path to the dart file which is to be tested: ');
   final path = stdin.readLineSync();
 
   stdout.write('Enter number of tests: ');
@@ -18,7 +18,7 @@ import 'dart:io';
 import 'dart:convert';
 import 'package:test/test.dart';
 
-void main(List<String> args) {
+void main() {
 ''');
 
 // Create path variable.

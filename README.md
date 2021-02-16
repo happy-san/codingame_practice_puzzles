@@ -33,7 +33,8 @@ Since I am implementing solutions to the puzzles which are associated with exper
 |[Prefix code][prefix-code]| [link](/lib/easy/prefix_code)|
 |[Equivalent Resistance, Circuit Building][equivalent-resistance-circuit-building]| [link](/lib/easy/equivalent_resistance_circuit_building)|
 |[Encryption/Decryption of Enigma Machine][encryptiondecryption-of-enigma-machine]| [link](/lib/easy/encryptiondecryption_of_enigma_machine)|
-|[Next growing number][next-growing-number]| |
+|[Next growing number][next-growing-number]| [link](/lib/easy/next_growing_number)|
+|[Create the longest sequence of 1s][create-the-longest-sequence-of-1s]| |
 
 
 </details>
@@ -72,3 +73,4 @@ Created from templates made available by Stagehand under a BSD-style
 [equivalent-resistance-circuit-building]: https://www.codingame.com/training/easy/equivalent-resistance-circuit-building
 [encryptiondecryption-of-enigma-machine]: https://www.codingame.com/training/easy/encryptiondecryption-of-enigma-machine
 [next-growing-number]: https://www.codingame.com/training/easy/next-growing-number
+[create-the-longest-sequence-of-1s]: https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s
