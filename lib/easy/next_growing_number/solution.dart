@@ -44,6 +44,4 @@ String getNextGrowingNumber(String input) {
   return number.join('');
 }
 
-void main() {
-  print(getNextGrowingNumber(stdin.readLineSync()));
-}
+void main() => print(getNextGrowingNumber(stdin.readLineSync()));
