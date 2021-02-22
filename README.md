@@ -38,7 +38,7 @@ Since I am implementing solutions to the puzzles which are associated with exper
 |[Encryption/Decryption of Enigma Machine][encryptiondecryption-of-enigma-machine]| [link](/lib/easy/encryptiondecryption_of_enigma_machine)|
 |[Next growing number][next-growing-number]| [link](/lib/easy/next_growing_number)|
 |[Create the longest sequence of 1s][create-the-longest-sequence-of-1s]| [link](lib/easy/create_the_longest_sequence_of_1s/)|
-|[Lumen][lumen]| [link][lib/easy/lumen/]|
+|[Lumen][lumen]| [link](lib/easy/lumen/)|
 |[Tree Paths][tree-paths]| |
 
 
