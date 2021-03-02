@@ -39,7 +39,10 @@ Since I am implementing solutions to the puzzles which are associated with exper
 |[Next growing number][next-growing-number]| [link](/lib/easy/next_growing_number)|
 |[Create the longest sequence of 1s][create-the-longest-sequence-of-1s]| [link](lib/easy/create_the_longest_sequence_of_1s/)|
 |[Lumen][lumen]| [link](lib/easy/lumen/)|
-|[Tree Paths][tree-paths]| |
+|[Tree Paths][tree-paths]| [link](lib/easy/tree_paths/)|
+|[7-Segment Scanner][7-segment-scanner]| [link](lib/easy/7_segment_scanner)|
+|[if then else][if-then-else]| |
+
 
 
 </details>
@@ -81,3 +84,5 @@ Created from templates made available by Stagehand under a BSD-style
 [create-the-longest-sequence-of-1s]: https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s
 [lumen]: https://www.codingame.com/training/easy/lumen
 [tree-paths]: https://www.codingame.com/training/easy/tree-paths
+[7-segment-scanner]: https://www.codingame.com/training/easy/7-segment-scanner
+[if-then-else]: https://www.codingame.com/training/easy/if-then-else
