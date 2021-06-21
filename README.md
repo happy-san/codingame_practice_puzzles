@@ -10,7 +10,7 @@ My main motive to create this repository is to showcase my command on the Dart l
 While this was not my initial motive, the limitations(lack of auto-complete due to latency, etc) that I felt in the online IDE of CodinGame lead me to create [`test generator`](/test/test_generator.dart) which I use to generate the boilerplate-code of the test for each puzzle which in turn enables me to code locally. If you're a fellow gamer give it a try.
 
 ## Plagiarism
-Since I am implementing solutions to the puzzles which are associated with experience points/levels in the CodinGame ecosystem and especially since CodinGame doesn't allow the user to even view other solutions before they've themselves first implemented a passing solution, I feel obliged to clarify, and even remind my fellow gamer, that this repository is not meant to be used to promote plagiarism.
+Since I am implementing solutions to the puzzles which are associated with experience points/levels in the CodinGame ecosystem and especially since CodinGame doesn't allow the user to even view other solutions before they've themselves first implemented a passing solution, I feel obliged to clarify that this repository is not meant to be used to promote plagiarism.
 
 ## Links
 
@@ -41,8 +41,8 @@ Since I am implementing solutions to the puzzles which are associated with exper
 |[Lumen][lumen]| [link](lib/easy/lumen/)|
 |[Tree Paths][tree-paths]| [link](lib/easy/tree_paths/)|
 |[7-Segment Scanner][7-segment-scanner]| [link](lib/easy/7_segment_scanner)|
+|[Is that a possible word? EP1][is-that-a-possible-word-ep1]| [link](lib/easy/is_that_a_possible_word_e1/)|
 |[if then else][if-then-else]| |
-
 
 
 </details>
@@ -85,4 +85,5 @@ Created from templates made available by Stagehand under a BSD-style
 [lumen]: https://www.codingame.com/training/easy/lumen
 [tree-paths]: https://www.codingame.com/training/easy/tree-paths
 [7-segment-scanner]: https://www.codingame.com/training/easy/7-segment-scanner
+[is-that-a-possible-word-ep1]: https://www.codingame.com/training/easy/is-that-a-possible-word-ep1
 [if-then-else]: https://www.codingame.com/training/easy/if-then-else
