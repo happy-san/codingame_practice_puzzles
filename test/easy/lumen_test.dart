@@ -1,9 +1,10 @@
+@TestOn('vm')
+
 import 'dart:io';
 import 'dart:convert';
 
 import 'package:test/test.dart';
-
-import '../../lib/easy/lumen/solution.dart';
+import 'package:codingame_practice_puzzles/easy/lumen/solution.dart';
 
 void main() {
   final path = 'lib/easy/lumen/solution.dart';
@@ -28,11 +29,7 @@ void main() {
   });
 
   group('Surrounding square grid points: ', () {
-    late final Location origin;
-
-    setUp(() {
-      origin = Location(0, 0);
-    });
+    final origin = Location(0, 0);
 
     test('Returns origin for square 0', () {
       expect(getSurroundingSquareLocations(origin, 0), equals({origin}));
