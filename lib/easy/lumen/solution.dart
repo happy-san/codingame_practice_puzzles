@@ -32,6 +32,23 @@ class Grid {
   }
 }
 
+/// Returns the [Location]s on the perimeter of the [squareNumber] surrounding
+/// [origin].
+///
+/// Example, [squareNumber] = 2
+///
+///                             (2,2)
+///                *  *  *  *  *
+///                      │
+///                *     ┼     *
+///                      │
+///        ─────── * ─┼──┼──┼─ * ───────
+///                      │
+///                *     ┼     *
+///                      │
+///                *  *  *  *  *
+///         (-2,-2)
+///
 Set<Location> getSurroundingSquareLocations(Location origin, int squareNumber) {
   var locations = <Location>{}, xOffset = origin.x, yOffset = origin.y;
 
@@ -49,8 +66,7 @@ Set<Location> getSurroundingSquareLocations(Location origin, int squareNumber) {
   return locations;
 }
 
-Grid removeIlluminated(
-    Grid grid, Location candleLocation, int squareNumber, int luminosity) {
+Grid removeIlluminated(Grid grid, Location candleLocation, int squareNumber) {
   //stderr.writeln('Candle $candleLocation: SquareNumber $squareNumber, Luminosity $luminosity');
   var squareLocations =
       getSurroundingSquareLocations(candleLocation, squareNumber);
@@ -73,7 +89,7 @@ void main() {
     final inputs = stdin.readLineSync().split(' ');
     for (var j = 0; j < gridSize; j++) {
       if (inputs[j] == 'C') {
-        candleLocations.add(Location(i, gridSize - 1 - j));
+        candleLocations.add(Location(i, j));
       }
     }
   }
@@ -86,9 +102,8 @@ void main() {
     var _luminosity = luminosity;
     var surroundingSquareNumber = 0;
 
-    while (_luminosity > 0) {
-      grid = removeIlluminated(
-          grid, location, surroundingSquareNumber++, _luminosity--);
+    while (_luminosity-- > 0) {
+      grid = removeIlluminated(grid, location, surroundingSquareNumber++);
     }
   }
 

@@ -165,9 +165,8 @@ void main() {
     final candleLocation = Location(0, 0);
     var luminosity = 2, surroundingSquareNumber = 0;
 
-    while (luminosity > 0 && grid.points.isNotEmpty) {
-      grid = removeIlluminated(
-          grid, candleLocation, surroundingSquareNumber++, luminosity--);
+    while (luminosity-- > 0 && grid.points.isNotEmpty) {
+      grid = removeIlluminated(grid, candleLocation, surroundingSquareNumber++);
     }
     expect(
         grid.points,
