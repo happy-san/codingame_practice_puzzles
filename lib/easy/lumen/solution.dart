@@ -20,10 +20,9 @@ class Location {
 }
 
 class Grid {
-  Set<Location> points;
+  Set<Location> points = {};
 
   Grid.ofSize(int size) {
-    points = {};
     for (var i = 0; i < size; i++) {
       for (var j = 0; j < size; j++) {
         points.add(Location(i, j));
@@ -81,12 +80,12 @@ Grid removeIlluminated(Grid grid, Location candleLocation, int squareNumber) {
 }
 
 void main() {
-  final gridSize = int.parse(stdin.readLineSync());
-  final luminosity = int.parse(stdin.readLineSync());
+  final gridSize = int.parse(stdin.readLineSync() ?? '0');
+  final luminosity = int.parse(stdin.readLineSync() ?? '0');
   final candleLocations = <Location>[];
 
   for (var i = 0; i < gridSize; i++) {
-    final inputs = stdin.readLineSync().split(' ');
+    final inputs = stdin.readLineSync()?.split(' ') ?? [];
     for (var j = 0; j < gridSize; j++) {
       if (inputs[j] == 'C') {
         candleLocations.add(Location(i, j));

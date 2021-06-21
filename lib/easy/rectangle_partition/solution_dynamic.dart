@@ -1,5 +1,7 @@
 // Needs improvement, times out in Hi-density 2 and sometimes in Imbalance.
 
+// @dart=2.11
+
 import 'dart:io';
 
 var elementCounter = 0;
