@@ -42,6 +42,7 @@ Since I am implementing solutions to the puzzles which are associated with exper
 |[Tree Paths][tree-paths]| [link](lib/easy/tree_paths/)|
 |[7-Segment Scanner][7-segment-scanner]| [link](lib/easy/7_segment_scanner)|
 |[Is that a possible word? EP1][is-that-a-possible-word-ep1]| [link](lib/easy/is_that_a_possible_word_e1/)|
+|[Nicholas Breakspeare and Hugh of Evesham][nicholas-breakspeare-and-hugh-of-evesham]| [link](/lib/easy/nicholas_breakspeare_and_hugh_of_evesham)|
 |[if then else][if-then-else]| |
 
 
@@ -86,4 +87,5 @@ Created from templates made available by Stagehand under a BSD-style
 [tree-paths]: https://www.codingame.com/training/easy/tree-paths
 [7-segment-scanner]: https://www.codingame.com/training/easy/7-segment-scanner
 [is-that-a-possible-word-ep1]: https://www.codingame.com/training/easy/is-that-a-possible-word-ep1
+[nicholas-breakspeare-and-hugh-of-evesham]: https://www.codingame.com/training/easy/nicholas-breakspeare-and-hugh-of-evesham
 [if-then-else]: https://www.codingame.com/training/easy/if-then-else
