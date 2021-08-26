@@ -90,37 +90,8 @@ List<Section> compileReports(List<Section> reports, Section report) {
           report);
   }
 
-  var left = insertionIndex,
-      right = insertionIndex,
-      canMergeToLeft = true,
-      canMergeToRight = true;
-  while (canMergeToLeft || canMergeToRight) {
-    if (canMergeToLeft) {
-      try {
-        merged = merged.tryMerge(reports[left - 1]);
-        left--;
-      } catch (e) {
-        if (e is ArgumentError || e is RangeError) {
-          canMergeToLeft = false;
-        } else {
-          rethrow;
-        }
-      }
-    }
-
-    if (canMergeToRight) {
-      try {
-        merged = merged.tryMerge(reports[right + 1]);
-        right++;
-      } catch (e) {
-        if (e is ArgumentError || e is RangeError) {
-          canMergeToRight = false;
-        } else {
-          rethrow;
-        }
-      }
-    }
-  }
+  final left = _mergeNeighbours(reports, merged, insertionIndex);
+  final right = _mergeNeighbours(reports, merged, insertionIndex, false);
 
   if (left == right) {
     reports.removeAt(left);
@@ -129,6 +100,24 @@ List<Section> compileReports(List<Section> reports, Section report) {
   }
 
   return reports..insert(left, merged);
+}
+
+int _mergeNeighbours(List<Section> reports, Section merged, int startingIndex,
+    [bool mergeToLeft = true]) {
+  var i = startingIndex;
+  while (true) {
+    try {
+      merged = merged.tryMerge(reports[mergeToLeft ? i - 1 : i + 1]);
+      mergeToLeft ? i-- : i++;
+    } catch (e) {
+      if (e is ArgumentError || e is RangeError) {
+        break;
+      } else {
+        rethrow;
+      }
+    }
+  }
+  return i;
 }
 
 List<Section> unpaintedSections(
