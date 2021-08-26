@@ -116,6 +116,22 @@ void main() {
             [Section(start: 1, end: 20)],
           ));
     });
+    test('All painted', () {
+      final reports = [
+        Section(start: 6, end: 10),
+        Section(start: 0, end: 4),
+        Section(start: 7, end: 8),
+        Section(start: 3, end: 7),
+        Section(start: 8, end: 12),
+      ];
+
+      var paintedSections = <Section>[];
+      for (final report in reports) {
+        paintedSections = compileReports(paintedSections, report);
+      }
+
+      expect(paintedSections, equals([Section(start: 0, end: 12)]));
+    });
   });
 
   test(
