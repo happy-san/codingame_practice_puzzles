@@ -85,8 +85,13 @@ List<Section> compileReports(List<Section> reports, Section report) {
           report);
   }
 
-  final left = _mergeNeighbours(reports, merged, insertionIndex);
-  final right = _mergeNeighbours(reports, merged, insertionIndex, false);
+  var res = _mergeNeighbours(reports, merged, insertionIndex);
+  final left = res.first;
+  merged = res.last;
+
+  res = _mergeNeighbours(reports, merged, insertionIndex, false);
+  final right = res.first;
+  merged = res.last;
 
   if (left == right) {
     reports.removeAt(left);
@@ -97,7 +102,8 @@ List<Section> compileReports(List<Section> reports, Section report) {
   return reports..insert(left, merged);
 }
 
-int _mergeNeighbours(List<Section> reports, Section merged, int startingIndex,
+List<dynamic> _mergeNeighbours(
+    List<Section> reports, Section merged, int startingIndex,
     [bool mergeToLeft = true]) {
   var i = startingIndex;
   while (true) {
@@ -112,7 +118,7 @@ int _mergeNeighbours(List<Section> reports, Section merged, int startingIndex,
       }
     }
   }
-  return i;
+  return [i, merged];
 }
 
 List<Section> unpaintedSections(
