@@ -15,12 +15,6 @@ void main() {
     test('has an end field', () {
       expect(section.end, equals(9));
     });
-    test('has an expand method', () {
-      final newSection = section.expand(start: 4, end: 20);
-
-      expect(newSection.start, equals(4));
-      expect(newSection.end, equals(20));
-    });
     test('has a contains method', () {
       expect(section.contains(Section(start: 6, end: 9)), isTrue);
       expect(section.contains(Section(start: 6, end: 7)), isTrue);
@@ -55,21 +49,6 @@ void main() {
       expect(section.compareTo(Section(start: 3, end: 4)), 1);
 
       expect(section.compareTo(Section(start: 10, end: 11)), -1);
-    });
-
-    group('expand method', () {
-      test('copies start/end values into new object, if null', () {
-        var newSection = section.expand();
-
-        expect(newSection.start, equals(6));
-        expect(newSection.end, equals(9));
-      });
-      test("ignores values that don't expand the section", () {
-        var newSection = section.expand(start: 7, end: 8);
-
-        expect(newSection.start, equals(6));
-        expect(newSection.end, equals(9));
-      });
     });
 
     test('tryMerge method throws if sections not mergeable', () {

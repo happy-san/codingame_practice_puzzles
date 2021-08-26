@@ -7,11 +7,6 @@ class Section {
 
   const Section({required this.start, required this.end});
 
-  Section expand({int? start, int? end}) => Section(
-        start: start == null ? this.start : min(start, this.start),
-        end: end == null ? this.end : max(end, this.end),
-      );
-
   bool contains(Section other) => start <= other.start && end >= other.end;
 
   bool overlaps(Section other) => start <= other.end && end >= other.start;
