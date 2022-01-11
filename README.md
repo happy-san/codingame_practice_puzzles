@@ -44,8 +44,8 @@ Since I am implementing solutions to the puzzles which are associated with exper
 |[Is that a possible word? EP1][is-that-a-possible-word-ep1]| [link](lib/easy/is_that_a_possible_word_e1/)|
 |[Nicholas Breakspeare and Hugh of Evesham][nicholas-breakspeare-and-hugh-of-evesham]| [link](/lib/easy/nicholas_breakspeare_and_hugh_of_evesham)|
 |[Graffiti on the fence][graffiti-on-the-fence]| [link](lib/easy/graffiti_on_the_fence)|
+|[Asteroids][asteroids]| [link](lib/easy/asteroids)|
 |[if then else][if-then-else]| |
-
 
 </details>
 
@@ -90,4 +90,5 @@ Created from templates made available by Stagehand under a BSD-style
 [is-that-a-possible-word-ep1]: https://www.codingame.com/training/easy/is-that-a-possible-word-ep1
 [nicholas-breakspeare-and-hugh-of-evesham]: https://www.codingame.com/training/easy/nicholas-breakspeare-and-hugh-of-evesham
 [graffiti-on-the-fence]: https://www.codingame.com/training/easy/graffiti-on-the-fence
+[asteroids]: https://www.codingame.com/training/easy/asteroids
 [if-then-else]: https://www.codingame.com/training/easy/if-then-else
